@@ -70,4 +70,20 @@ main > * {
 
 /* media queries */
 
-/* YOUR CODE HERE */
+/*move all content inside main to the left when screen is less than 768px */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+  }
+  .airplane-list-container{
+    margin-left: 0;
+  }
+  h2 {
+    margin-left: 0;
+  }
+
+
+
+}
